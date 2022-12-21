@@ -1,0 +1,571 @@
+{
+21:33:26 wp-server.1 |   "mode": "development",
+21:33:26 wp-server.1 |   "output": {
+21:33:26 wp-server.1 |     "filename": "js/[name].js",
+21:33:26 wp-server.1 |     "chunkFilename": "js/[name].chunk.js",
+21:33:26 wp-server.1 |     "hotUpdateChunkFilename": "js/[id].[fullhash].hot-update.js",
+21:33:26 wp-server.1 |     "path": "/home/amsterdamal/Documents/rails_react/slimline/public/packs",
+21:33:26 wp-server.1 |     "publicPath": "/packs/"
+21:33:26 wp-server.1 |   },
+21:33:26 wp-server.1 |   "entry": {
+21:33:26 wp-server.1 |     "hello-world-bundle": "/home/amsterdamal/Documents/rails_react/slimline/app/javascript/packs/hello-world-bundle.js",
+21:33:26 wp-server.1 |     "server-bundle": "/home/amsterdamal/Documents/rails_react/slimline/app/javascript/packs/server-bundle.js"
+21:33:26 rails.1     | Puma starting in single mode...
+21:33:26 wp-server.1 |   },
+21:33:26 rails.1     | * Puma version: 5.6.5 (ruby 3.1.2-p20) ("Birdie's Version")
+21:33:26 wp-server.1 |   "resolve": {
+21:33:26 rails.1     | *  Min threads: 5
+21:33:26 wp-server.1 |     "extensions": [
+21:33:26 rails.1     | *  Max threads: 5
+21:33:26 wp-server.1 |       ".js",
+21:33:26 rails.1     | *  Environment: development
+21:33:26 wp-server.1 |       ".jsx",
+21:33:26 rails.1     | *          PID: 13660
+21:33:26 wp-server.1 |       ".mjs",
+21:33:26 wp-server.1 |       ".ts",
+21:33:26 wp-server.1 |       ".tsx",
+21:33:26 rails.1     | * Listening on http://127.0.0.1:3000
+21:33:26 wp-server.1 |       ".coffee"
+21:33:26 rails.1     | * Listening on http://[::1]:3000
+21:33:26 wp-server.1 |     ],
+21:33:26 wp-server.1 |     "modules": [
+21:33:26 wp-server.1 |       "/home/amsterdamal/Documents/rails_react/slimline/app/javascript",
+21:33:26 wp-server.1 |       "node_modules"
+21:33:26 wp-server.1 |     ]
+21:33:26 wp-server.1 |   },
+21:33:26 wp-server.1 |   "plugins": [
+21:33:26 wp-server.1 |     {
+21:33:26 wp-server.1 |       "keys": [
+21:33:26 wp-server.1 |         "SHELL",
+21:33:26 wp-server.1 |         "SESSION_MANAGER",
+21:33:26 wp-server.1 |         "QT_ACCESSIBILITY",
+21:33:26 wp-server.1 |         "COLORTERM",
+21:33:26 wp-server.1 |         "XDG_CONFIG_DIRS",
+21:33:26 wp-server.1 |         "XDG_MENU_PREFIX",
+21:33:26 wp-server.1 |         "GNOME_DESKTOP_SESSION_ID",
+21:33:26 wp-server.1 |         "MANDATORY_PATH",
+21:33:26 wp-server.1 |         "GNOME_SHELL_SESSION_MODE",
+21:33:26 wp-server.1 |         "SSH_AUTH_SOCK",
+21:33:26 wp-server.1 |         "RBENV_HOOK_PATH",
+21:33:26 wp-server.1 |         "XMODIFIERS",
+21:33:26 wp-server.1 |         "DESKTOP_SESSION",
+21:33:26 wp-server.1 |         "RBENV_SHELL",
+21:33:26 wp-server.1 |         "SSH_AGENT_PID",
+21:33:26 wp-server.1 |         "SERVER_BUNDLE_ONLY",
+21:33:26 wp-server.1 |         "GTK_MODULES",
+21:33:26 wp-server.1 |         "PWD",
+21:33:26 wp-server.1 |         "XDG_SESSION_DESKTOP",
+21:33:26 wp-server.1 |         "LOGNAME",
+21:33:26 wp-server.1 |         "XDG_SESSION_TYPE",
+21:33:26 wp-server.1 |         "PORT",
+21:33:26 wp-server.1 |         "GPG_AGENT_INFO",
+21:33:26 wp-server.1 |         "XAUTHORITY",
+21:33:26 wp-server.1 |         "GJS_DEBUG_TOPICS",
+21:33:26 wp-server.1 |         "WINDOWPATH",
+21:33:26 wp-server.1 |         "HOME",
+21:33:26 rails.1     | Use Ctrl-C to stop
+21:33:26 wp-server.1 |         "USERNAME",
+21:33:26 wp-server.1 |         "IM_CONFIG_PHASE",
+21:33:26 wp-server.1 |         "LANG",
+21:33:26 wp-server.1 |         "LS_COLORS",
+21:33:26 wp-server.1 |         "XDG_CURRENT_DESKTOP",
+21:33:26 wp-server.1 |         "VTE_VERSION",
+21:33:26 wp-server.1 |         "GNOME_TERMINAL_SCREEN",
+21:33:26 wp-server.1 |         "INVOCATION_ID",
+21:33:26 wp-server.1 |         "MANAGERPID",
+21:33:26 wp-server.1 |         "GJS_DEBUG_OUTPUT",
+21:33:26 wp-server.1 |         "LESSCLOSE",
+21:33:26 wp-server.1 |         "XDG_SESSION_CLASS",
+21:33:26 wp-server.1 |         "TERM",
+21:33:26 wp-server.1 |         "DEFAULTS_PATH",
+21:33:26 wp-server.1 |         "LESSOPEN",
+21:33:26 wp-server.1 |         "USER",
+21:33:26 wp-server.1 |         "RBENV_DIR",
+21:33:26 wp-server.1 |         "GNOME_TERMINAL_SERVICE",
+21:33:26 wp-server.1 |         "DISPLAY",
+21:33:26 wp-server.1 |         "SHLVL",
+21:33:26 wp-server.1 |         "QT_IM_MODULE",
+21:33:26 wp-server.1 |         "HMR",
+21:33:26 wp-server.1 |         "PS",
+21:33:26 wp-server.1 |         "RBENV_VERSION",
+21:33:26 wp-server.1 |         "XDG_RUNTIME_DIR",
+21:33:26 wp-server.1 |         "JOURNAL_STREAM",
+21:33:26 wp-server.1 |         "XDG_DATA_DIRS",
+21:33:26 wp-server.1 |         "PATH",
+21:33:26 wp-server.1 |         "GDMSESSION",
+21:33:26 wp-server.1 |         "DBUS_SESSION_BUS_ADDRESS",
+21:33:26 wp-server.1 |         "RUBYLIB",
+21:33:26 wp-server.1 |         "RBENV_ROOT",
+21:33:26 wp-server.1 |         "OLDPWD",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_BUNDLE_BIN_PATH",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_BUNDLE_GEMFILE",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_BUNDLER_VERSION",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_GEM_HOME",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_GEM_PATH",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_MANPATH",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_PATH",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_RB_USER_INSTALL",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_RUBYLIB",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_RUBYOPT",
+21:33:26 wp-server.1 |         "GEM_HOME",
+21:33:26 wp-server.1 |         "BUNDLE_BIN_PATH",
+21:33:26 wp-server.1 |         "BUNDLE_GEMFILE",
+21:33:26 wp-server.1 |         "BUNDLER_VERSION",
+21:33:26 wp-server.1 |         "RUBYOPT",
+21:33:26 wp-server.1 |         "RAILS_ENV",
+21:33:26 wp-server.1 |         "NODE_ENV",
+21:33:26 wp-server.1 |         "WEBPACKER_CONFIG"
+21:33:26 wp-server.1 |       ],
+21:33:26 wp-server.1 |       "defaultValues": {
+21:33:26 wp-server.1 |         "SHELL": "/bin/bash",
+21:33:26 wp-server.1 |         "SESSION_MANAGER": "local/AORUS-17G-XC:@/tmp/.ICE-unix/5331,unix/AORUS-17G-XC:/tmp/.ICE-unix/5331",
+21:33:26 wp-server.1 |         "QT_ACCESSIBILITY": "1",
+21:33:26 wp-server.1 |         "COLORTERM": "truecolor",
+21:33:26 wp-server.1 |         "XDG_CONFIG_DIRS": "/etc/xdg/xdg-ubuntu:/etc/xdg",
+21:33:26 wp-server.1 |         "XDG_MENU_PREFIX": "gnome-",
+21:33:26 wp-server.1 |         "GNOME_DESKTOP_SESSION_ID": "this-is-deprecated",
+21:33:26 wp-server.1 |         "MANDATORY_PATH": "/usr/share/gconf/ubuntu.mandatory.path",
+21:33:26 wp-server.1 |         "GNOME_SHELL_SESSION_MODE": "ubuntu",
+21:33:26 wp-server.1 |         "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+21:33:26 wp-server.1 |         "RBENV_HOOK_PATH": "/home/amsterdamal/.rbenv/rbenv.d:/usr/local/etc/rbenv.d:/etc/rbenv.d:/usr/lib/rbenv/hooks",
+21:33:26 wp-server.1 |         "XMODIFIERS": "@im=ibus",
+21:33:26 wp-server.1 |         "DESKTOP_SESSION": "ubuntu",
+21:33:26 wp-server.1 |         "RBENV_SHELL": "bash",
+21:33:26 wp-server.1 |         "SSH_AGENT_PID": "5297",
+21:33:26 wp-server.1 |         "SERVER_BUNDLE_ONLY": "yes",
+21:33:26 wp-server.1 |         "GTK_MODULES": "gail:atk-bridge",
+21:33:26 wp-server.1 |         "PWD": "/home/amsterdamal/Documents/rails_react/slimline",
+21:33:26 wp-server.1 |         "XDG_SESSION_DESKTOP": "ubuntu",
+21:33:26 wp-server.1 |         "LOGNAME": "amsterdamal",
+21:33:26 wp-server.1 |         "XDG_SESSION_TYPE": "x11",
+21:33:26 wp-server.1 |         "PORT": "5200",
+21:33:26 wp-server.1 |         "GPG_AGENT_INFO": "/run/user/1000/gnupg/S.gpg-agent:0:1",
+21:33:26 wp-server.1 |         "XAUTHORITY": "/run/user/1000/gdm/Xauthority",
+21:33:26 wp-server.1 |         "GJS_DEBUG_TOPICS": "JS ERROR;JS LOG",
+21:33:26 wp-server.1 |         "WINDOWPATH": "2",
+21:33:26 wp-server.1 |         "HOME": "/home/amsterdamal",
+21:33:26 wp-server.1 |         "USERNAME": "amsterdamal",
+21:33:26 wp-server.1 |         "IM_CONFIG_PHASE": "1",
+21:33:26 wp-server.1 |         "LANG": "en_US.UTF-8",
+21:33:26 wp-server.1 |         "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+21:33:26 wp-server.1 |         "XDG_CURRENT_DESKTOP": "ubuntu:GNOME",
+21:33:26 wp-server.1 |         "VTE_VERSION": "6003",
+21:33:26 wp-server.1 |         "GNOME_TERMINAL_SCREEN": "/org/gnome/Terminal/screen/46389c16_aea7_47f2_91a0_2d26a184f08f",
+21:33:26 wp-server.1 |         "INVOCATION_ID": "cf5c1f586c8346e383f29b58b7ffa66d",
+21:33:26 wp-server.1 |         "MANAGERPID": "5046",
+21:33:26 wp-server.1 |         "GJS_DEBUG_OUTPUT": "stderr",
+21:33:26 wp-server.1 |         "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+21:33:26 wp-server.1 |         "XDG_SESSION_CLASS": "user",
+21:33:26 wp-server.1 |         "TERM": "xterm-256color",
+21:33:26 wp-server.1 |         "DEFAULTS_PATH": "/usr/share/gconf/ubuntu.default.path",
+21:33:26 wp-server.1 |         "LESSOPEN": "| /usr/bin/lesspipe %s",
+21:33:26 wp-server.1 |         "USER": "amsterdamal",
+21:33:26 wp-server.1 |         "RBENV_DIR": "/home/amsterdamal/Documents/rails_react/slimline/bin",
+21:33:26 wp-server.1 |         "GNOME_TERMINAL_SERVICE": ":1.98",
+21:33:26 wp-server.1 |         "DISPLAY": ":1",
+21:33:26 wp-server.1 |         "SHLVL": "1",
+21:33:26 wp-server.1 |         "QT_IM_MODULE": "ibus",
+21:33:26 wp-server.1 |         "HMR": "true",
+21:33:26 wp-server.1 |         "PS": "wp-server.1",
+21:33:26 wp-server.1 |         "RBENV_VERSION": "3.1.2",
+21:33:26 wp-server.1 |         "XDG_RUNTIME_DIR": "/run/user/1000",
+21:33:26 wp-server.1 |         "JOURNAL_STREAM": "8:87061",
+21:33:26 wp-server.1 |         "XDG_DATA_DIRS": "/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+21:33:26 wp-server.1 |         "PATH": "/home/amsterdamal/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/bin:/home/amsterdamal/.rbenv/versions/3.1.2/bin:/home/amsterdamal/.rbenv/libexec:/home/amsterdamal/.rbenv/plugins/ruby-build/bin:/home/amsterdamal/.yarn/bin:/home/amsterdamal/.config/yarn/global/node_modules/.bin:/opt/firefox/firefox:/home/amsterdamal/.rbenv/shims:/home/amsterdamal/.rbenv/bin:/home/amsterdamal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+21:33:26 wp-server.1 |         "GDMSESSION": "ubuntu",
+21:33:26 wp-server.1 |         "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+21:33:26 wp-server.1 |         "RUBYLIB": "/home/amsterdamal/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.26/lib:/home/amsterdamal/.rbenv/rbenv.d/exec/gem-rehash",
+21:33:26 wp-server.1 |         "RBENV_ROOT": "/home/amsterdamal/.rbenv",
+21:33:26 wp-server.1 |         "OLDPWD": "/home/amsterdamal/Documents/rails_react/slimline/bin",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_BUNDLE_BIN_PATH": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_BUNDLE_GEMFILE": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_BUNDLER_VERSION": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_GEM_HOME": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_GEM_PATH": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_MANPATH": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_PATH": "/home/amsterdamal/.rbenv/versions/3.1.2/bin:/home/amsterdamal/.rbenv/libexec:/home/amsterdamal/.rbenv/plugins/ruby-build/bin:/home/amsterdamal/.yarn/bin:/home/amsterdamal/.config/yarn/global/node_modules/.bin:/opt/firefox/firefox:/home/amsterdamal/.rbenv/plugins/ruby-build/bin:/home/amsterdamal/.rbenv/shims:/home/amsterdamal/.rbenv/bin:/home/amsterdamal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_RB_USER_INSTALL": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_RUBYLIB": "/home/amsterdamal/.rbenv/rbenv.d/exec/gem-rehash:",
+21:33:26 wp-server.1 |         "BUNDLER_ORIG_RUBYOPT": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+21:33:26 wp-server.1 |         "GEM_HOME": "/home/amsterdamal/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0",
+21:33:26 wp-server.1 |         "BUNDLE_BIN_PATH": "/home/amsterdamal/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.26/exe/bundle",
+21:33:26 wp-server.1 |         "BUNDLE_GEMFILE": "/home/amsterdamal/Documents/rails_react/slimline/Gemfile",
+21:33:26 wp-server.1 |         "BUNDLER_VERSION": "2.3.26",
+21:33:26 wp-server.1 |         "RUBYOPT": "-r/home/amsterdamal/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.26/lib/bundler/setup",
+21:33:26 wp-server.1 |         "RAILS_ENV": "development",
+21:33:26 wp-server.1 |         "NODE_ENV": "development",
+21:33:26 wp-server.1 |         "WEBPACKER_CONFIG": "/home/amsterdamal/Documents/rails_react/slimline/config/webpacker.yml"
+21:33:26 wp-server.1 |       }
+21:33:26 wp-server.1 |     },
+21:33:26 wp-server.1 |     {},
+21:33:26 wp-server.1 |     {
+21:33:26 wp-server.1 |       "_sortedModulesCache": {},
+21:33:26 wp-server.1 |       "options": {
+21:33:26 wp-server.1 |         "filename": "css/[name].css",
+21:33:26 wp-server.1 |         "ignoreOrder": false,
+21:33:26 wp-server.1 |         "runtime": true,
+21:33:26 wp-server.1 |         "chunkFilename": "css/[id].css"
+21:33:26 wp-server.1 |       },
+21:33:26 wp-server.1 |       "runtimeOptions": {
+21:33:26 wp-server.1 |         "linkType": "text/css"
+21:33:26 wp-server.1 |       }
+21:33:26 wp-server.1 |     }
+21:33:26 wp-server.1 |   ],
+21:33:26 wp-server.1 |   "resolveLoader": {
+21:33:26 wp-server.1 |     "modules": [
+21:33:26 wp-server.1 |       "node_modules"
+21:33:26 wp-server.1 |     ]
+21:33:26 wp-server.1 |   },
+21:33:26 wp-server.1 |   "optimization": {
+21:33:26 wp-server.1 |     "splitChunks": {
+21:33:26 wp-server.1 |       "chunks": "all"
+21:33:26 wp-server.1 |     },
+21:33:26 wp-server.1 |     "runtimeChunk": "single"
+21:33:26 wp-server.1 |   },
+21:33:26 wp-server.1 |   "module": {
+21:33:26 wp-server.1 |     "strictExportPresence": true,
+21:33:26 wp-server.1 |     "rules": [
+21:33:26 wp-server.1 |       {
+21:33:26 wp-server.1 |         "test": {},
+21:33:26 wp-server.1 |         "exclude": {},
+21:33:26 wp-server.1 |         "type": "asset/source"
+21:33:26 wp-server.1 |       },
+21:33:26 wp-server.1 |       {
+21:33:26 wp-server.1 |         "test": {},
+21:33:26 wp-server.1 |         "exclude": {},
+21:33:26 wp-server.1 |         "type": "asset/resource",
+21:33:26 wp-server.1 |         "generator": {}
+21:33:26 wp-server.1 |       },
+21:33:26 wp-server.1 |       {
+21:33:26 wp-server.1 |         "test": {},
+21:33:26 wp-server.1 |         "use": [
+21:33:26 wp-server.1 |           "/home/amsterdamal/Documents/rails_react/slimline/node_modules/mini-css-extract-plugin/dist/loader.js",
+21:33:26 wp-server.1 |           {
+21:33:26 wp-server.1 |             "loader": "/home/amsterdamal/Documents/rails_react/slimline/node_modules/css-loader/dist/cjs.js",
+21:33:26 wp-server.1 |             "options": {
+21:33:26 wp-server.1 |               "sourceMap": true,
+21:33:26 wp-server.1 |               "importLoaders": 2
+21:33:26 wp-server.1 |             }
+21:33:26 wp-server.1 |           }
+21:33:26 wp-server.1 |         ]
+21:33:26 wp-server.1 |       },
+21:33:26 wp-server.1 |       {
+21:33:26 wp-server.1 |         "test": {},
+21:33:26 wp-server.1 |         "include": [
+21:33:26 wp-server.1 |           "/home/amsterdamal/Documents/rails_react/slimline/app/javascript"
+21:33:26 wp-server.1 |         ],
+21:33:26 wp-server.1 |         "exclude": {},
+21:33:26 wp-server.1 |         "use": [
+21:33:26 wp-server.1 |           {
+21:33:26 wp-server.1 |             "loader": "/home/amsterdamal/Documents/rails_react/slimline/node_modules/babel-loader/lib/index.js",
+21:33:26 wp-server.1 |             "options": {
+21:33:26 wp-server.1 |               "cacheDirectory": true,
+21:33:26 wp-server.1 |               "cacheCompression": false,
+21:33:26 wp-server.1 |               "compact": false
+21:33:26 wp-server.1 |             }
+21:33:26 wp-server.1 |           }
+21:33:26 wp-server.1 |         ]
+21:33:26 wp-server.1 |       }
+21:33:26 wp-server.1 |     ]
+21:33:26 wp-server.1 |   },
+21:33:26 wp-server.1 |   "devtool": "cheap-module-source-map"
+21:33:26 wp-server.1 | }
+21:33:26 wp-client.1 | {
+21:33:26 wp-client.1 |   "mode": "development",
+21:33:26 wp-client.1 |   "output": {
+21:33:26 wp-client.1 |     "filename": "js/[name].js",
+21:33:26 wp-client.1 |     "chunkFilename": "js/[name].chunk.js",
+21:33:26 wp-client.1 |     "hotUpdateChunkFilename": "js/[id].[fullhash].hot-update.js",
+21:33:26 wp-client.1 |     "path": "/home/amsterdamal/Documents/rails_react/slimline/public/packs",
+21:33:26 wp-client.1 |     "publicPath": "/packs/"
+21:33:26 wp-client.1 |   },
+21:33:26 wp-client.1 |   "entry": {
+21:33:26 wp-client.1 |     "hello-world-bundle": "/home/amsterdamal/Documents/rails_react/slimline/app/javascript/packs/hello-world-bundle.js",
+21:33:26 wp-client.1 |     "server-bundle": "/home/amsterdamal/Documents/rails_react/slimline/app/javascript/packs/server-bundle.js"
+21:33:26 wp-client.1 |   },
+21:33:26 wp-client.1 |   "resolve": {
+21:33:26 wp-client.1 |     "extensions": [
+21:33:26 wp-client.1 |       ".js",
+21:33:26 wp-client.1 |       ".jsx",
+21:33:26 wp-client.1 |       ".mjs",
+21:33:26 wp-client.1 |       ".ts",
+21:33:26 wp-client.1 |       ".tsx",
+21:33:26 wp-client.1 |       ".coffee"
+21:33:26 wp-client.1 |     ],
+21:33:26 wp-client.1 |     "modules": [
+21:33:26 wp-client.1 |       "/home/amsterdamal/Documents/rails_react/slimline/app/javascript",
+21:33:26 wp-client.1 |       "node_modules"
+21:33:26 wp-client.1 |     ]
+21:33:26 wp-client.1 |   },
+21:33:26 wp-client.1 |   "plugins": [
+21:33:26 wp-client.1 |     {
+21:33:26 wp-client.1 |       "keys": [
+21:33:26 wp-client.1 |         "SHELL",
+21:33:26 wp-client.1 |         "SESSION_MANAGER",
+21:33:26 wp-client.1 |         "QT_ACCESSIBILITY",
+21:33:26 wp-client.1 |         "COLORTERM",
+21:33:26 wp-client.1 |         "XDG_CONFIG_DIRS",
+21:33:26 wp-client.1 |         "XDG_MENU_PREFIX",
+21:33:26 wp-client.1 |         "GNOME_DESKTOP_SESSION_ID",
+21:33:26 wp-client.1 |         "MANDATORY_PATH",
+21:33:26 wp-client.1 |         "GNOME_SHELL_SESSION_MODE",
+21:33:26 wp-client.1 |         "SSH_AUTH_SOCK",
+21:33:26 wp-client.1 |         "RBENV_HOOK_PATH",
+21:33:26 wp-client.1 |         "XMODIFIERS",
+21:33:26 wp-client.1 |         "DESKTOP_SESSION",
+21:33:26 wp-client.1 |         "RBENV_SHELL",
+21:33:26 wp-client.1 |         "SSH_AGENT_PID",
+21:33:26 wp-client.1 |         "GTK_MODULES",
+21:33:26 wp-client.1 |         "PWD",
+21:33:26 wp-client.1 |         "XDG_SESSION_DESKTOP",
+21:33:26 wp-client.1 |         "LOGNAME",
+21:33:26 wp-client.1 |         "XDG_SESSION_TYPE",
+21:33:26 wp-client.1 |         "PORT",
+21:33:26 wp-client.1 |         "GPG_AGENT_INFO",
+21:33:26 wp-client.1 |         "XAUTHORITY",
+21:33:26 wp-client.1 |         "GJS_DEBUG_TOPICS",
+21:33:26 wp-client.1 |         "WINDOWPATH",
+21:33:26 wp-client.1 |         "HOME",
+21:33:26 wp-client.1 |         "USERNAME",
+21:33:26 wp-client.1 |         "IM_CONFIG_PHASE",
+21:33:26 wp-client.1 |         "LANG",
+21:33:26 wp-client.1 |         "LS_COLORS",
+21:33:26 wp-client.1 |         "XDG_CURRENT_DESKTOP",
+21:33:26 wp-client.1 |         "VTE_VERSION",
+21:33:26 wp-client.1 |         "GNOME_TERMINAL_SCREEN",
+21:33:26 wp-client.1 |         "INVOCATION_ID",
+21:33:26 wp-client.1 |         "MANAGERPID",
+21:33:26 wp-client.1 |         "GJS_DEBUG_OUTPUT",
+21:33:26 wp-client.1 |         "LESSCLOSE",
+21:33:26 wp-client.1 |         "XDG_SESSION_CLASS",
+21:33:26 wp-client.1 |         "TERM",
+21:33:26 wp-client.1 |         "DEFAULTS_PATH",
+21:33:26 wp-client.1 |         "LESSOPEN",
+21:33:26 wp-client.1 |         "USER",
+21:33:26 wp-client.1 |         "RBENV_DIR",
+21:33:26 wp-client.1 |         "GNOME_TERMINAL_SERVICE",
+21:33:26 wp-client.1 |         "DISPLAY",
+21:33:26 wp-client.1 |         "SHLVL",
+21:33:26 wp-client.1 |         "QT_IM_MODULE",
+21:33:26 wp-client.1 |         "HMR",
+21:33:26 wp-client.1 |         "PS",
+21:33:26 wp-client.1 |         "RBENV_VERSION",
+21:33:26 wp-client.1 |         "XDG_RUNTIME_DIR",
+21:33:26 wp-client.1 |         "JOURNAL_STREAM",
+21:33:26 wp-client.1 |         "XDG_DATA_DIRS",
+21:33:26 wp-client.1 |         "PATH",
+21:33:26 wp-client.1 |         "GDMSESSION",
+21:33:26 wp-client.1 |         "DBUS_SESSION_BUS_ADDRESS",
+21:33:26 wp-client.1 |         "RUBYLIB",
+21:33:26 wp-client.1 |         "RBENV_ROOT",
+21:33:26 wp-client.1 |         "OLDPWD",
+21:33:26 wp-client.1 |         "RAILS_ENV",
+21:33:26 wp-client.1 |         "NODE_ENV",
+21:33:26 wp-client.1 |         "BUNDLE_GEMFILE",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_BUNDLE_BIN_PATH",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_BUNDLE_GEMFILE",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_BUNDLER_VERSION",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_GEM_HOME",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_GEM_PATH",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_MANPATH",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_PATH",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_RB_USER_INSTALL",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_RUBYLIB",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_RUBYOPT",
+21:33:26 wp-client.1 |         "GEM_HOME",
+21:33:26 wp-client.1 |         "BUNDLE_BIN_PATH",
+21:33:26 wp-client.1 |         "BUNDLER_VERSION",
+21:33:26 wp-client.1 |         "RUBYOPT",
+21:33:26 wp-client.1 |         "WEBPACKER_CONFIG",
+21:33:26 wp-client.1 |         "WEBPACK_SERVE"
+21:33:26 wp-client.1 |       ],
+21:33:26 wp-client.1 |       "defaultValues": {
+21:33:26 wp-client.1 |         "SHELL": "/bin/bash",
+21:33:26 wp-client.1 |         "SESSION_MANAGER": "local/AORUS-17G-XC:@/tmp/.ICE-unix/5331,unix/AORUS-17G-XC:/tmp/.ICE-unix/5331",
+21:33:26 wp-client.1 |         "QT_ACCESSIBILITY": "1",
+21:33:26 wp-client.1 |         "COLORTERM": "truecolor",
+21:33:26 wp-client.1 |         "XDG_CONFIG_DIRS": "/etc/xdg/xdg-ubuntu:/etc/xdg",
+21:33:26 wp-client.1 |         "XDG_MENU_PREFIX": "gnome-",
+21:33:26 wp-client.1 |         "GNOME_DESKTOP_SESSION_ID": "this-is-deprecated",
+21:33:26 wp-client.1 |         "MANDATORY_PATH": "/usr/share/gconf/ubuntu.mandatory.path",
+21:33:26 wp-client.1 |         "GNOME_SHELL_SESSION_MODE": "ubuntu",
+21:33:26 wp-client.1 |         "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+21:33:26 wp-client.1 |         "RBENV_HOOK_PATH": "/home/amsterdamal/.rbenv/rbenv.d:/usr/local/etc/rbenv.d:/etc/rbenv.d:/usr/lib/rbenv/hooks",
+21:33:26 wp-client.1 |         "XMODIFIERS": "@im=ibus",
+21:33:26 wp-client.1 |         "DESKTOP_SESSION": "ubuntu",
+21:33:26 wp-client.1 |         "RBENV_SHELL": "bash",
+21:33:26 wp-client.1 |         "SSH_AGENT_PID": "5297",
+21:33:26 wp-client.1 |         "GTK_MODULES": "gail:atk-bridge",
+21:33:26 wp-client.1 |         "PWD": "/home/amsterdamal/Documents/rails_react/slimline",
+21:33:26 wp-client.1 |         "XDG_SESSION_DESKTOP": "ubuntu",
+21:33:26 wp-client.1 |         "LOGNAME": "amsterdamal",
+21:33:26 wp-client.1 |         "XDG_SESSION_TYPE": "x11",
+21:33:26 wp-client.1 |         "PORT": "5100",
+21:33:26 wp-client.1 |         "GPG_AGENT_INFO": "/run/user/1000/gnupg/S.gpg-agent:0:1",
+21:33:26 wp-client.1 |         "XAUTHORITY": "/run/user/1000/gdm/Xauthority",
+21:33:26 wp-client.1 |         "GJS_DEBUG_TOPICS": "JS ERROR;JS LOG",
+21:33:26 wp-client.1 |         "WINDOWPATH": "2",
+21:33:26 wp-client.1 |         "HOME": "/home/amsterdamal",
+21:33:26 wp-client.1 |         "USERNAME": "amsterdamal",
+21:33:26 wp-client.1 |         "IM_CONFIG_PHASE": "1",
+21:33:26 wp-client.1 |         "LANG": "en_US.UTF-8",
+21:33:26 wp-client.1 |         "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+21:33:26 wp-client.1 |         "XDG_CURRENT_DESKTOP": "ubuntu:GNOME",
+21:33:26 wp-client.1 |         "VTE_VERSION": "6003",
+21:33:26 wp-client.1 |         "GNOME_TERMINAL_SCREEN": "/org/gnome/Terminal/screen/46389c16_aea7_47f2_91a0_2d26a184f08f",
+21:33:26 wp-client.1 |         "INVOCATION_ID": "cf5c1f586c8346e383f29b58b7ffa66d",
+21:33:26 wp-client.1 |         "MANAGERPID": "5046",
+21:33:26 wp-client.1 |         "GJS_DEBUG_OUTPUT": "stderr",
+21:33:26 wp-client.1 |         "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+21:33:26 wp-client.1 |         "XDG_SESSION_CLASS": "user",
+21:33:26 wp-client.1 |         "TERM": "xterm-256color",
+21:33:26 wp-client.1 |         "DEFAULTS_PATH": "/usr/share/gconf/ubuntu.default.path",
+21:33:26 wp-client.1 |         "LESSOPEN": "| /usr/bin/lesspipe %s",
+21:33:26 wp-client.1 |         "USER": "amsterdamal",
+21:33:26 wp-client.1 |         "RBENV_DIR": "/home/amsterdamal/Documents/rails_react/slimline/bin",
+21:33:26 wp-client.1 |         "GNOME_TERMINAL_SERVICE": ":1.98",
+21:33:26 wp-client.1 |         "DISPLAY": ":1",
+21:33:26 wp-client.1 |         "SHLVL": "1",
+21:33:26 wp-client.1 |         "QT_IM_MODULE": "ibus",
+21:33:26 wp-client.1 |         "HMR": "true",
+21:33:26 wp-client.1 |         "PS": "wp-client.1",
+21:33:26 wp-client.1 |         "RBENV_VERSION": "3.1.2",
+21:33:26 wp-client.1 |         "XDG_RUNTIME_DIR": "/run/user/1000",
+21:33:26 wp-client.1 |         "JOURNAL_STREAM": "8:87061",
+21:33:26 wp-client.1 |         "XDG_DATA_DIRS": "/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+21:33:26 wp-client.1 |         "PATH": "/home/amsterdamal/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/bin:/home/amsterdamal/.rbenv/versions/3.1.2/bin:/home/amsterdamal/.rbenv/libexec:/home/amsterdamal/.rbenv/plugins/ruby-build/bin:/home/amsterdamal/.yarn/bin:/home/amsterdamal/.config/yarn/global/node_modules/.bin:/opt/firefox/firefox:/home/amsterdamal/.rbenv/shims:/home/amsterdamal/.rbenv/bin:/home/amsterdamal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+21:33:26 wp-client.1 |         "GDMSESSION": "ubuntu",
+21:33:26 wp-client.1 |         "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+21:33:26 wp-client.1 |         "RUBYLIB": "/home/amsterdamal/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.26/lib:/home/amsterdamal/.rbenv/rbenv.d/exec/gem-rehash",
+21:33:26 wp-client.1 |         "RBENV_ROOT": "/home/amsterdamal/.rbenv",
+21:33:26 wp-client.1 |         "OLDPWD": "/home/amsterdamal/Documents/rails_react/slimline/bin",
+21:33:26 wp-client.1 |         "RAILS_ENV": "development",
+21:33:26 wp-client.1 |         "NODE_ENV": "development",
+21:33:26 wp-client.1 |         "BUNDLE_GEMFILE": "/home/amsterdamal/Documents/rails_react/slimline/Gemfile",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_BUNDLE_BIN_PATH": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_BUNDLE_GEMFILE": "/home/amsterdamal/Documents/rails_react/slimline/Gemfile",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_BUNDLER_VERSION": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_GEM_HOME": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_GEM_PATH": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_MANPATH": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_PATH": "/home/amsterdamal/.rbenv/versions/3.1.2/bin:/home/amsterdamal/.rbenv/libexec:/home/amsterdamal/.rbenv/plugins/ruby-build/bin:/home/amsterdamal/.yarn/bin:/home/amsterdamal/.config/yarn/global/node_modules/.bin:/opt/firefox/firefox:/home/amsterdamal/.rbenv/plugins/ruby-build/bin:/home/amsterdamal/.rbenv/shims:/home/amsterdamal/.rbenv/bin:/home/amsterdamal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_RB_USER_INSTALL": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_RUBYLIB": "/home/amsterdamal/.rbenv/rbenv.d/exec/gem-rehash:",
+21:33:26 wp-client.1 |         "BUNDLER_ORIG_RUBYOPT": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+21:33:26 wp-client.1 |         "GEM_HOME": "/home/amsterdamal/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0",
+21:33:26 wp-client.1 |         "BUNDLE_BIN_PATH": "/home/amsterdamal/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.26/exe/bundle",
+21:33:26 wp-client.1 |         "BUNDLER_VERSION": "2.3.26",
+21:33:26 wp-client.1 |         "RUBYOPT": "-r/home/amsterdamal/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.26/lib/bundler/setup",
+21:33:26 wp-client.1 |         "WEBPACKER_CONFIG": "/home/amsterdamal/Documents/rails_react/slimline/config/webpacker.yml",
+21:33:26 wp-client.1 |         "WEBPACK_SERVE": "true"
+21:33:26 wp-client.1 |       }
+21:33:26 wp-client.1 |     },
+21:33:26 wp-client.1 |     {},
+21:33:26 wp-client.1 |     {
+21:33:26 wp-client.1 |       "_sortedModulesCache": {},
+21:33:26 wp-client.1 |       "options": {
+21:33:26 wp-client.1 |         "filename": "css/[name].css",
+21:33:26 wp-client.1 |         "ignoreOrder": false,
+21:33:26 wp-client.1 |         "runtime": true,
+21:33:26 wp-client.1 |         "chunkFilename": "css/[id].css"
+21:33:26 wp-client.1 |       },
+21:33:26 wp-client.1 |       "runtimeOptions": {
+21:33:26 wp-client.1 |         "linkType": "text/css"
+21:33:26 wp-client.1 |       }
+21:33:26 wp-client.1 |     }
+21:33:26 wp-client.1 |   ],
+21:33:26 wp-client.1 |   "resolveLoader": {
+21:33:26 wp-client.1 |     "modules": [
+21:33:26 wp-client.1 |       "node_modules"
+21:33:26 wp-client.1 |     ]
+21:33:26 wp-client.1 |   },
+21:33:26 wp-client.1 |   "optimization": {
+21:33:26 wp-client.1 |     "splitChunks": {
+21:33:26 wp-client.1 |       "chunks": "all"
+21:33:26 wp-client.1 |     },
+21:33:26 wp-client.1 |     "runtimeChunk": "single"
+21:33:26 wp-client.1 |   },
+21:33:26 wp-client.1 |   "module": {
+21:33:26 wp-client.1 |     "strictExportPresence": true,
+21:33:26 wp-client.1 |     "rules": [
+21:33:26 wp-client.1 |       {
+21:33:26 wp-client.1 |         "test": {},
+21:33:26 wp-client.1 |         "exclude": {},
+21:33:26 wp-client.1 |         "type": "asset/source"
+21:33:26 wp-client.1 |       },
+21:33:26 wp-client.1 |       {
+21:33:26 wp-client.1 |         "test": {},
+21:33:26 wp-client.1 |         "exclude": {},
+21:33:26 wp-client.1 |         "type": "asset/resource",
+21:33:26 wp-client.1 |         "generator": {}
+21:33:26 wp-client.1 |       },
+21:33:26 wp-client.1 |       {
+21:33:26 wp-client.1 |         "test": {},
+21:33:26 wp-client.1 |         "use": [
+21:33:26 wp-client.1 |           "style-loader",
+21:33:26 wp-client.1 |           {
+21:33:26 wp-client.1 |             "loader": "/home/amsterdamal/Documents/rails_react/slimline/node_modules/css-loader/dist/cjs.js",
+21:33:26 wp-client.1 |             "options": {
+21:33:26 wp-client.1 |               "sourceMap": true,
+21:33:26 wp-client.1 |               "importLoaders": 2
+21:33:26 wp-client.1 |             }
+21:33:26 wp-client.1 |           }
+21:33:26 wp-client.1 |         ]
+21:33:26 wp-client.1 |       },
+21:33:26 wp-client.1 |       {
+21:33:26 wp-client.1 |         "test": {},
+21:33:26 wp-client.1 |         "include": [
+21:33:26 wp-client.1 |           "/home/amsterdamal/Documents/rails_react/slimline/app/javascript"
+21:33:26 wp-client.1 |         ],
+21:33:26 wp-client.1 |         "exclude": {},
+21:33:26 wp-client.1 |         "use": [
+21:33:26 wp-client.1 |           {
+21:33:26 wp-client.1 |             "loader": "/home/amsterdamal/Documents/rails_react/slimline/node_modules/babel-loader/lib/index.js",
+21:33:26 wp-client.1 |             "options": {
+21:33:26 wp-client.1 |               "cacheDirectory": true,
+21:33:26 wp-client.1 |               "cacheCompression": false,
+21:33:26 wp-client.1 |               "compact": false
+21:33:26 wp-client.1 |             }
+21:33:26 wp-client.1 |           }
+21:33:26 wp-client.1 |         ]
+21:33:26 wp-client.1 |       }
+21:33:26 wp-client.1 |     ]
+21:33:26 wp-client.1 |   },
+21:33:26 wp-client.1 |   "devtool": "cheap-module-source-map",
+21:33:26 wp-client.1 |   "stats": {
+21:33:26 wp-client.1 |     "colors": true,
+21:33:26 wp-client.1 |     "entrypoints": false,
+21:33:26 wp-client.1 |     "errorDetails": true,
+21:33:26 wp-client.1 |     "modules": false,
+21:33:26 wp-client.1 |     "moduleTrace": false
+21:33:26 wp-client.1 |   },
+21:33:26 wp-client.1 |   "devServer": {
+21:33:26 wp-client.1 |     "devMiddleware": {
+21:33:26 wp-client.1 |       "publicPath": "/packs/"
+21:33:26 wp-client.1 |     },
+21:33:26 wp-client.1 |     "compress": true,
+21:33:26 wp-client.1 |     "allowedHosts": [
+21:33:26 wp-client.1 |       "localhost"
+21:33:26 wp-client.1 |     ],
+21:33:26 wp-client.1 |     "host": "localhost",
+21:33:26 wp-client.1 |     "port": 3035,
+21:33:26 wp-client.1 |     "https": false,
+21:33:26 wp-client.1 |     "hot": true,
+21:33:26 wp-client.1 |     "liveReload": false,
+21:33:26 wp-client.1 |     "historyApiFallback": {
+21:33:26 wp-client.1 |       "disableDotRule": true
+21:33:26 wp-client.1 |     },
+21:33:26 wp-client.1 |     "headers": {
+21:33:26 wp-client.1 |       "Access-Control-Allow-Origin": "*"
+21:33:26 wp-client.1 |     },
+21:33:26 wp-client.1 |     "static": {
+21:33:26 wp-client.1 |       "publicPath": "/home/amsterdamal/Documents/rails_react/slimline/public/packs",
+21:33:26 wp-client.1 |       "watch": {
+21:33:26 wp-client.1 |         "ignored": "**/node_modules/**"
+21:33:26 wp-client.1 |       }
+21:33:26 wp-client.1 |     },
+21:33:26 wp-client.1 |     "client": {
+21:33:26 wp-client.1 |       "overlay": true
+21:33:26 wp-client.1 |     }
+21:33:26 wp-client.1 |   }
+21:33:26 wp-client.1 | }
